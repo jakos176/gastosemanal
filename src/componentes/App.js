@@ -1,5 +1,6 @@
 import '../css/App.css';
 import Header from "./Header";
+import FormularioGasto from "./FormularioGasto";
 
 function App() {
     return (
@@ -8,7 +9,7 @@ function App() {
             <div className='contenido-principal contenido'>
                 <div className='row'>
                     <div className='one-half column'>
-
+                        <FormularioGasto/>
                     </div>
                     <div className='one-half column'>
 
